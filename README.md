@@ -29,4 +29,4 @@ This project is an AI-powered predictive maintenance tool designed to monitor in
    python model.py
 2. **Launch the Dashboard:** Run the interactive user interface script to load the exported parameters and boot the live system diagnostic controls:
 ```bash
-   python "Maintenance_ui (2).py"
+   python "Maintenance_ui.py"
