@@ -24,6 +24,9 @@ This project is an AI-powered predictive maintenance tool designed to monitor in
 ---
 
 ## How to Use
-1. **Train the Network:** Open the Jupyter Notebook `predictive-maintenance-using-ann.ipynb` or run the standalone script to train the model on the data file and save the weights configuration:
+1. **Train and Export the Model:** Run the `model.py` script. This will train the Artificial Neural Network on the sensor dataset and automatically export the trained weights, architecture configurations, threshold values, and the scaler's mean and standard deviation parameters as JSON configurations.
    ```bash
    python model.py
+2. **Launch the Dashboard:** Run the interactive user interface script to load the exported parameters and boot the live system diagnostic controls:
+```bash
+   python "Maintenance_ui (2).py"
