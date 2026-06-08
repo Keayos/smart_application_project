@@ -1,0 +1,13 @@
+{
+  "feature_names": [
+    "temperature",
+    "vibration",
+    "humidity",
+    "pressure",
+    "energy_consumption",
+    "anomaly_flag"
+  ],
+  "input_dim": 6,
+  "hidden_size1": 32,
+  "threshold": 0.35
+}
